@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* Стили для всей карточки профиля */
+.profile-container {
+  width: 320px; /* Размер карточки */
+  background-color: #fff;
+  border-radius: 10px; /* Закругленные углы */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для карточки */
+  overflow: hidden; /* Скрытие переполнения */
+  font-family: "Arial", sans-serif; /* Шрифт */
+  margin: 20px auto; /* Центрирование карточки */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Стиль для верхней секции с аватаром и информацией */
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Светлый фон для верхней части */
+}
+
+.profile-header img {
+  width: 80px; /* Размер аватара */
+  height: 80px;
+  border-radius: 50%; /* Круглый аватар */
+  object-fit: cover; /* Обрезка изображения по кругу */
+  border: 2px solid #ddd; /* Рамка вокруг аватара */
+  margin-bottom: 10px; /* Отступ снизу */
+  background-color: #333;
+}
+
+.profile-header p {
+  margin: 5px 0;
+  color: #333; /* Цвет текста */
+}
+
+.profile-header .name {
+  font-size: 18px; /* Размер шрифта имени */
+  font-weight: bold; /* Жирный шрифт */
+}
+
+.profile-header .tag {
+  font-size: 14px; /* Размер шрифта тега */
+  color: #555; /* Цвет тега */
+}
+
+.profile-header .location {
+  font-size: 12px; /* Размер шрифта для местоположения */
+  color: #777; /* Цвет местоположения */
+}
+
+/* Стили для блока с статистикой */
+.profile-stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #fafafa; /* Светлый фон для статистики */
+  border-top: 1px solid #eee; /* Легкая линия сверху */
+}
+
+.profile-stats li {
+  list-style-type: none;
+  text-align: center; /* Выравнивание по центру */
+}
+
+.profile-stats span:first-child {
+  display: block;
+  font-size: 12px; /* Размер шрифта для надписей */
+  color: #888; /* Цвет текста */
+}
+
+.profile-stats span:last-child {
+  display: block;
+  font-size: 16px; /* Размер шрифта для цифр */
+  font-weight: bold; /* Жирный шрифт для цифр */
+  color: #333; /* Цвет цифр */
+}
+
+/* Линии между статистическими элементами */
+.profile-stats li:not(:last-child) {
+  border-right: 1px solid #ddd; /* Линия между элементами */
+}
