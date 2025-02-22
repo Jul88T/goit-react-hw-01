@@ -87,3 +87,42 @@
 .profile-stats li:not(:last-child) {
   border-right: 1px solid #ddd;
 }
+/* ================================================= */
+
+.friend-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card-friend {
+  width: 80px;
+  height: 140px;
+  background-color: #ddd;
+  border-radius: 2%;
+}
+
+img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
