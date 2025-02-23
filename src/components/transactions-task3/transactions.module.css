@@ -1,0 +1,48 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  font-family: "Arial", sans-serif;
+}
+
+.th,
+.td {
+  padding: 12px 18px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+.tr:hover {
+  background-color: #f9f9f9;
+}
+
+.td {
+  color: #555;
+}
+
+.tdType {
+  font-weight: 600;
+}
+
+.tdAmount {
+  color: #4caf50;
+}
+
+.tdCurrency {
+  font-style: italic;
+  color: #888;
+}
+
+.td:first-child {
+  text-transform: capitalize;
+}
+
+.tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
